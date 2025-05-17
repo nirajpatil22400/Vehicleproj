@@ -182,6 +182,8 @@ const pages = [
   { label: "About Us", path: "/about-us" },
   { label: "Services", path: "/services" },
   { label: "Contact Us", path: "/contact-us" },
+  { label: "Login", path: "/login" },
+  { label: "Signup", path: "/signup" },
 ];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 

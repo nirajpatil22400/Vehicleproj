@@ -1,0 +1,21 @@
+/* carcarosula component css */
+.carousel-img {
+  height: 90vh;
+  object-fit: cover;
+  filter: brightness(0.85);
+  border-radius: 0;
+}
+
+.carousel-caption {
+  bottom: 20%;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+}
