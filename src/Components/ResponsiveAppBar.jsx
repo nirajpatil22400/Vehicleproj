@@ -213,7 +213,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            <img src={logo} width={"65px"} alt="Logo" />
+            {/* <img src={logo} width={"65px"} alt="Logo" /> */}
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -267,7 +267,7 @@ function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            <img src={logo} width={"40px"} alt="Logo" />
+            {/* <img src={logo} width={"40px"} alt="Logo" /> */}
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
@@ -284,7 +284,7 @@ function ResponsiveAppBar() {
             ))}
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
+          {/* <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -306,7 +306,7 @@ function ResponsiveAppBar() {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>

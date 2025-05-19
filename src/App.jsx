@@ -15,18 +15,23 @@ import AccordionUsage from "./Components/AccordionUsage";
 // import VehicleConfigurator from "./Components/VehicleConfigurator";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import CarCards from "./Components/CarCards";
+import CarDetail from "./Components/CarDetail";
+import Header from "./Components/Header";
+import Sidebar from "./Components/Sidebar";
+import MainContent from "./Components/MainContent";
+
+import "./App.css";
+
 function App() {
   return (
     <Router>
+      <Header userName="Niraj Patil" />
       <ResponsiveAppBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about-us" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact-us" element={<Contact />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-      </Routes>
+      <div className="app-container">
+        <Sidebar />
+        <MainContent />
+      </div>
       {/* <SelectVehicleSegment /> */}
       {/* <VehicleConfigurator /> */}
       <AccordionUsage />
